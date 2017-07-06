@@ -23,6 +23,15 @@ namespace LoopPractice
             //{
             //do something
             //}
+            
+            //for(int i = 15; i > 0; i--)
+            //{
+            //    Console.WriteLine(i);//counts down from 15 to 1 
+            //}
+            //for(int i = 50; i <= 100; i++)
+            //{
+            //    Console.WriteLine(i);//counts up from 50 to 100
+            //}
 
 
         }
