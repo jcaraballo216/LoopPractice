@@ -145,19 +145,57 @@ namespace LoopPractice
             //Ask the user if they have another class they would like to add to their GPA
             //using a do-while loop, repeat the code if the user says yes
 
-            string classOne;
-            do
+            //string classOne;
+            //do
+            //{
+            //    Console.WriteLine("Would you like to add a class for your GPA calculation? yes/no");
+            //    classOne = Console.ReadLine().ToLower();
+            //    string classTwo;
+            //    Console.WriteLine("What is the name of the class?");
+            //    classTwo = Console.ReadLine();
+            //    string grades;
+            //    Console.WriteLine("What is the grade for that class?");
+            //    grades = Console.ReadLine();
+            //}
+            //while(classOne == "yes");
+
+            //Nested loops
+            //a loop inside another loop
+            //the inner loop is executed more than the outer loop
+            //real life example - clock
+
+            //create a nested loop structure that prints:
+            //1234
+            //1234
+
+            //for(int rows = 1; rows<=2; rows++)//example
+            //{
+            //    for(int columns = 1; columns <= 4; columns++)
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //Print a triangle
+            //outer loop will go line by line
+            //inner loop will go over elements in the line
+            //results should look like:
+            //1
+            //12
+            //123
+            //1234......
+
+            for(int rows = 1; rows <= 4; rows++)
             {
-                Console.WriteLine("Would you like to add a class for your GPA calculation? yes/no");
-                classOne = Console.ReadLine().ToLower();
-                string classTwo;
-                Console.WriteLine("What is the name of the class?");
-                classTwo = Console.ReadLine();
-                string grades;
-                Console.WriteLine("What is the grade for that class?");
-                grades = Console.ReadLine();
+                for (int columns = 1; columns <= rows; columns++ )
+                {
+                    Console.Write(columns);
+                }
+                Console.WriteLine();
             }
-            while(classOne == "yes");
+
+
             
             
         
