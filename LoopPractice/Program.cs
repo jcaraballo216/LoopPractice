@@ -245,6 +245,29 @@ namespace LoopPractice
 
             //}
 
+            //Number Problem
+            Console.WriteLine("Please enter a number!");
+            int userNum = int.Parse(Console.ReadLine());
+            while(userNum % 3 != 0)
+            {
+                Console.WriteLine("You Lost");
+                Console.WriteLine("Please enter another number!");
+                userNum = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("You Won!");
+                
+
+           
+            
+
+            
+            
+            
+            
+            
+
+
+
 
 
 
