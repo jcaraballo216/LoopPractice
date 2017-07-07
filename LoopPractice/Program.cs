@@ -186,16 +186,23 @@ namespace LoopPractice
             //123
             //1234......
 
-            for(int rows = 1; rows <= 4; rows++)
+            //for(int rows = 1; rows <= 4; rows++)
+            //{
+            //    for (int columns = 1; columns <= rows; columns++ )
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            //Homework
+
+            int[] luckyNumbers = { 7, 21, 82, 54, 90 };
+            foreach(int numbers in luckyNumbers)
             {
-                for (int columns = 1; columns <= rows; columns++ )
-                {
-                    Console.Write(columns);
-                }
-                Console.WriteLine();
+                Console.WriteLine("Your lucky number is: " + (numbers));
             }
-
-
             
             
         
