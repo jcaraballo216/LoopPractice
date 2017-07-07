@@ -215,6 +215,36 @@ namespace LoopPractice
 
             //Movies
 
+            //string[] favMovies = { "Super Troopers", "Avatar", "Star Wars", "Serenity", "UnderWorld" };
+            //foreach(string movie in favMovies)
+            //{
+            //    if (movie.StartsWith("A"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("E"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("I"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("O"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("U"))
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(movie);
+            //    }
+
+            //}
+
 
 
 
