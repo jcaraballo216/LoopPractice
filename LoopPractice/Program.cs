@@ -198,10 +198,19 @@ namespace LoopPractice
 
             //Homework
 
-            int[] luckyNumbers = { 7, 21, 82, 54, 90 };
-            foreach(int numbers in luckyNumbers)
+            //int[] luckyNumbers = { 7, 21, 82, 54, 90 };
+            //foreach(int numbers in luckyNumbers)
+            //{
+            //    Console.WriteLine("Your lucky number is: " + (numbers));
+            //}
+
+            for (int i = 1; i < 2; i++)
             {
-                Console.WriteLine("Your lucky number is: " + (numbers));
+                for( int j = 1; j <= i; j++)
+                {
+                    Console.WriteLine(i*5);
+                }
+                Console.WriteLine();
             }
             
             
