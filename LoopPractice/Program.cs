@@ -246,25 +246,79 @@ namespace LoopPractice
             //}
 
             //Number Problem
-            Console.WriteLine("Please enter a number!");
-            int userNum = int.Parse(Console.ReadLine());
-            while(userNum % 3 != 0)
+            //Console.WriteLine("Please enter a number!");
+            //int userNum = int.Parse(Console.ReadLine());
+            //while(userNum % 3 != 0)
+            //{ 
+            //    Console.WriteLine("You Lost");
+            //    Console.WriteLine("Please enter another number!");
+            //    userNum = int.Parse(Console.ReadLine());
+            //}
+            //Console.WriteLine("You Won!");
+
+            //Write a console application that asks the user for a word or phrase,
+            //print the number of each vowel in that work to the console.
+            //output: " your phrase has   As" etc
+            int vowelA = 0;
+            int vowelE = 0;
+            int vowelI = 0;
+            int vowelO = 0;
+            int vowelU = 0;
+            Console.WriteLine("Please enter a word or phrase");
+            string word = (Console.ReadLine().ToLower());
+            foreach (char vowel in word)
             {
-                Console.WriteLine("You Lost");
-                Console.WriteLine("Please enter another number!");
-                userNum = int.Parse(Console.ReadLine());
-            }
-            Console.WriteLine("You Won!");
+                if (vowel =='a')
+                {
+                    vowelA = 1;
+                }
+               if (vowel == 'e')
+                {
+                    vowelE += 1;
+                }
+               if (vowel == 'i')
+                {
+                    vowelI += 1;
+                }
+               if (vowel =='o')
+                {
+                    vowelO += 1;
+                }
+               if (vowel == 'u')
+                {
+                    vowelU += 1;
+                }
                 
+            }
+            Console.WriteLine("Your phrase has " + vowelA + "As in it");
+            Console.WriteLine("Your phrase has " + vowelE + "ESin it");
+            Console.WriteLine("Your phrase has " + vowelI + "Is in it");
+            Console.WriteLine("Your phrase has " + vowelO + "Os in it");
+            Console.WriteLine("Your phrase has " + vowelU + "Us in it");
 
-           
-            
+            ////creating a ramdom object
+            Random randomNum = new Random();
+            ////saving the random number from our random object(randomNum)
+            //int randy = randomNum.Next(0, 2);
+            ////printing out the random int var
+            //Console.WriteLine(randy);
+            ////did not save that value to an integer
+            //Console.WriteLine(randomNum.Next(0, 9));
+            //example
+            string[] words = { "rock", "Paper", "Scissors" };
+            Console.WriteLine(words[randomNum.Next(0, 3)]);
 
             
             
-            
-            
-            
+
+
+
+
+
+
+
+
+
 
 
 
