@@ -204,26 +204,32 @@ namespace LoopPractice
             //    Console.WriteLine("Your lucky number is: " + (numbers));
             //}
 
-            for (int i = 1; i < 2; i++)
-            {
-                for( int j = 1; j <= i; j++)
-                {
-                    Console.WriteLine(i*5);
-                }
-                Console.WriteLine();
-            }
-            
-            
-        
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    for (int j = 1; j <= 5; j++)
+            //    {
+            //        Console.Write(i * j + "\t");
+            //    }
+            //    Console.WriteLine();
+            //}
 
-        
+            //Movies
 
 
 
 
-            
-            
-            
+
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }
